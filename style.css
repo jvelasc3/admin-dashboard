@@ -21,7 +21,6 @@ body {
 }
 
 .main {
-  background-color: #e4e4e7;
   height: 100vh;
 }
 
@@ -51,4 +50,76 @@ body {
 
 .list-icon-bottom {
   margin-top: 50px;
+}
+
+.main {
+  display: grid;
+  grid-template-rows: 20% 80%;
+  height: 100vh;
+  background-color: white;
+}
+
+.header {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar,
+.left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px 20px;
+}
+
+.form-input {
+  width: 500px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  border: 1px solid black;
+  margin-left: 20px;
+  margin-right: 500px;
+}
+
+.user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 20px;
+}
+
+.content {
+  background-color: #e4e4e7;
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+
+.avatar,
+.avatarUser {
+  margin: 0 10px;
+}
+
+.right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 18%;
+}
+
+.btn {
+  background-color: #8b5cf6;
+  width: 70px;
+  height: 35px;
+  color: white;
+  border: 1px solid #8b5cf6;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+
+.cards {
+  display: grid;
+  grid-column: 50% 50%;
 }
